@@ -4,9 +4,10 @@ var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
 var cors = require('cors');
 const corsOptions ={
-    origin: ["https://k40db0.csb.app", "gooogle.com"],
-    credentials:true,           
-    optionSuccessStatus:200
+origin: ["https://k40db0.csb.app", "gooogle.com"],
+credentials: true,
+methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
+optionSuccessStatus:200
 }
 const app = express();
 app.use(cors(corsOptions));
