@@ -1,0 +1,9 @@
+node_modules
+backups
+Procfile
+firstapp
+firstapp/.git
+firstapp/.gitignore
+firstapp/README.md
+firstapp/node_modules
+**node_modules
